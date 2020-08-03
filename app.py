@@ -21,9 +21,9 @@ def index():
     return render_template('home.html', age=age)
 
 
-@app.route('/timeline')
-def timeline():
-    return render_template('timeline.html', resume_pdf_link=resume_pdf_link)
+@app.route('/curriculum')
+def curriculum():
+    return render_template('curriculum.html', resume_pdf_link=resume_pdf_link)
 
 
 @app.route('/reading')
