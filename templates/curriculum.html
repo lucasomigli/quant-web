@@ -12,9 +12,10 @@
 {% block body %}
 <div class="container">
     <!-- <iframe src="/static/files/cv.pdf" width="850" height="1100" seamless></iframe> -->
-    <div id="cv">
-        <img src="/static/files/cv.png" height="100%" width="100%">
-    </div>
+    <img src="/static/files/cv.png">
+    <form method="get" action="/static/files/cv.pdf">
+        <button type="submit">Download!</button>
+     </form>
     <br>
     <br>
 </div>
