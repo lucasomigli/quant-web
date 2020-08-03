@@ -13,6 +13,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: flex-end;
+    margin-right: 30px;
     width: 100%;
 }
 
